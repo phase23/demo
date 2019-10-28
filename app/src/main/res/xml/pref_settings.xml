@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--<PreferenceCategory-->
+    <!--android:key="@string/key_settings"-->
+    <!--android:title="@string/pref_settings">-->
+    <Preference
+        android:icon="@mipmap/set"
+        android:key="@string/key_os"
+        android:title="@string/pref_os"/>
+    <!--</PreferenceCategory>-->
+    <!--<PreferenceCategory-->
+    <!--android:key="@string/key_feature"-->
+    <!--android:title="@string/pref_feature">-->
+    <Preference
+        android:icon="@mipmap/card"
+        android:key="@string/key_card"
+        android:title="@string/pref_card"/>
+    <Preference
+        android:icon="@mipmap/print"
+        android:key="@string/key_print"
+        android:title="@string/pref_print"/>
+
+
+
+    <!--
+    <Preference
+        android:icon="@mipmap/beeper"
+        android:key="@string/key_beep"
+        android:title="@string/pref_beep"/>
+    <ListPreference
+        android:icon="@mipmap/led"
+        android:entries="@array/led_lights"
+        android:entryValues="@array/led_lights_value"
+        android:key="@string/key_led"
+        android:title="@string/pref_led"/>
+
+    <Preference
+        android:icon="@mipmap/icon_encryption"
+        android:key="@string/key_pinPad"
+        android:title="@string/pref_pinPad"/>
+    <Preference
+        android:icon="@mipmap/scanning"
+        android:key="@string/key_scan"
+        android:title="@string/pref_scan"/>
+    <Preference
+        android:icon="@mipmap/fingerprint"
+        android:key="@string/key_fingerprint"
+        android:title="@string/pref_fingerprint"/>
+
+    <Preference
+        android:icon="@mipmap/test"
+        android:key="@string/key_whole_engine_test"
+        android:title="@string/pref_whole_engine_test"/>
+
+    <Preference
+        android:icon="@mipmap/update"
+        android:key="@string/key_update_app"
+        android:title="@string/pref_update_app"/>
+
+        -->
+    <!--</PreferenceCategory>-->
+
+
+</PreferenceScreen>
